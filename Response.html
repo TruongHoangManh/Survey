@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Response</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./Bootstrap5/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./Bootstrap5/bootstrap-5.0.2-dist/css/w3css.css" rel="stylesheet">
+    <link href="./Bootstrap5/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./Bootstrap5/Ionicons/css/ionicons.min.css" rel="stylesheet">
+    <script src="./Bootstrap5/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="./Bootstrap5/jquery/dist/jquery.min.js"></script>
+    <script src="./Bootstrap5/myjs/mycss.css"></script>
+    <script src="./SheetJS/dist/xlsx.full.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container pt-3">
+        <h1>Your survey results</h1>
+        <p class="w3-right w3-large"><span class="fa fa-user w3-large"></span> <span id="username"></span> <i class="fa fa-sign-out w3-large" onclick="signOut();"></i></p>
+    </div>
+    <div class="container p-5 my-5 border" id="container">
+        <div class="TitleBlock">
+        </div>
+        <div class="QuestionBlock">
+        </div>
+        <div>
+            <button class="w3-button w3-indigo w3-round-xxlarge" onclick="ExcelExport();">Export to Excel</button>
+        </div>
+    </div> <!--end container-->
+    <script src="Scripts/index_common_v1.min.js"></script>
+    <script src="./Bootstrap5/custom-selectbox.js"></script>
+    <!--<script src="./Bootstrap5/myjs/myjs_summarize_updating.js"></script>-->
+    <script type="text/javascript" language="javascript">
+        var versionUpdate = (new Date()).getTime();
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "./Bootstrap5/myjs/myjs_summarize_v3.min.js?v=" + versionUpdate;
+        document.body.appendChild(script);
+    </script>
+
+    <!--Add Icon to option of select-->
+    <script>
+        $('#example').IconSelectBox(true); // isImg: boolean
+        $('#optionselect').IconSelectBox(false); // isImg: boolean
+    </script>
+
+    <!--Add tool tip-->
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+</body>
+</html>

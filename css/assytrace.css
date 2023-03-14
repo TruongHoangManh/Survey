@@ -1,0 +1,176 @@
+﻿body{
+    background-color:#F9F9F9;
+}
+#pcbtrace_title{
+    margin: 20px 0 40px 0;
+    font-family:'Times New Roman';
+    color:purple;
+    font-size:40px;
+    text-align:center;
+}
+#content_frame{
+    background-color:#FEEBD0;
+    width:85%;
+    min-height:280px;
+    margin:auto;
+    border:solid thin;
+    border-color:orange;	
+    border-radius:5px;
+}
+#result_frame{
+    background-color:white;
+    width:85%;
+    margin:auto;
+}
+#content{
+    margin-top:20px;
+    min-height:180px;
+}
+#content_left{
+    float:left;
+    width:33%;
+}
+#content_mid{
+    float:left;
+    width:33%;
+}
+#content_right{
+    float:right;
+    width:33%;
+}
+#select_model{
+    margin-left:30px;
+    height:25px;
+    width:60px;
+    color:blue;
+    font-size:15px;
+    color:#511f90;
+}
+#select_checker{
+    margin-left:17px;
+    height:25px;
+    width:100px;
+    color:blue;
+    font-size:15px;
+}
+#tx_date{
+    margin-left:47px;
+    height:20px;
+    width:96px;
+    color:blue;
+    font-size:15px;
+}
+#tx_usb{
+    margin-left:24px;
+    height:20px;
+    width:150px;
+    color:blue;
+    font-size:15px;
+}
+#tx_serial{
+    margin-left:18px;
+    height:20px;
+    width:150px;
+    color:blue;
+    font-size:15px;
+}
+#select_line{
+    margin-left:50px;
+    height:25px;
+    width:100px;
+    color:blue;
+}
+#select_result{
+    margin-left:49px;
+    height:25px;
+    width:100px;
+    color:blue;
+}
+#tx_fail_code{
+    margin-left:30px;
+    height:20px;
+    width:96px;
+    color:blue;
+}
+#tx_ip_address{
+    margin-left:20px;
+    height:20px;
+    width:150px;
+    color:blue;
+}
+.comment{
+    color:red;
+    font-size:20px;
+}
+.label{
+    font-size:18px;
+    margin-left:30px;
+}
+#button{
+    text-align:center;
+}
+.bt_search{
+    height:40px;
+    width:160px;
+    background-color:pink;
+    color:blue;
+    font-size:20px;
+    font-family:'Times New Roman';
+}
+/* ----------- Result table -------------------*/
+#result{
+    margin-top:30px;
+    background-color:#d5ffff;
+}
+#table_result{
+    margin-left:1px;
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.no{
+    width:30px;
+    text-align:center;
+}
+.line{
+    width:50px;
+    text-align:center;
+}
+.unit{
+    width:60px;
+}
+.model{
+    width:60px;
+}
+.ip_address{
+    width:120px;
+}
+.qr_code{
+    width:150px;
+}
+.usb{
+    width:80px;
+}
+.cavity{
+    width:50px;
+}
+.date{
+    width:100px;
+}
+.time{
+    width:80px;
+}
+.result{
+    width:80px;
+}
+.fail_step{
+    width:80px;
+}
+.fail_data{
+    width:100px;
+}
+.data{
+    text-align:center;
+}

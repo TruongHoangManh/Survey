@@ -1,0 +1,104 @@
+﻿body {
+}
+#header{
+    width:100%;
+    height:50px;
+}
+#footer{
+    width:100%;
+    height:50px;
+    background-color:#11ae68;
+    margin-left:2px;
+    float:left;
+}
+#panel{
+    width:100%;
+    height:40px;
+    background-color:#11ae68;
+    margin-left:2px;
+    padding-top:10px;
+    text-align:center;
+}
+#content{
+    background-color:white;
+    margin-left:2px;
+    height:auto;
+}
+#content_left{
+    float:left;
+    min-height:2450px;
+    width:10%;
+    background-color:#fce0a6;
+}
+#content_mid{
+    float:left;
+    min-height:2450px;
+    width:75%;
+}
+#content_right{
+    float:right;
+    min-height:2450px;
+    width:10%;
+    background-color:#fce0a6;
+}
+#login{
+    margin-top:5px;
+    margin-left:5px;
+}
+#assy_investigation{
+    /*margin-top:20px;
+    margin-left:5px;*/
+    height:300px;
+}
+#pcb_investigation{
+    /*margin-top:20px;
+    margin-left:5px;*/
+    height:300px;
+}
+.panel_title{
+    font-family:'Times New Roman';
+    font-size:25px;
+}
+.item_title{
+    color:#009298;
+    font-size:30px;
+    font-weight:500;
+    float:left;
+    width:100%;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left:10px;
+}
+.item_content{
+    color:black;
+    font-size:18px;
+    margin-left:20px;
+    float:left;
+    width:50%;
+    /*margin-top:35px;*/
+}
+.item_image{
+    float:left;
+    width:40%;
+}
+.item_img{
+    height:30px;
+    width:60px;
+    margin-left:20px;
+}
+.item_img_login_2{
+    height:150px;
+    width:270px;
+    margin-left:50px;
+    border:solid thin orange;
+}
+.item_img_login_3{
+    height:70px;
+    width:150px;
+    margin-left:50px;
+}
+.img_assy{
+    height:100px;
+    width:160px;
+    margin-left:50px;
+}

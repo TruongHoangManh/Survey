@@ -1,0 +1,22 @@
+﻿body {
+}
+#content{
+    width:65%;
+    float:right;
+    margin-top:30px;
+}
+.task
+{
+    margin-top:30px;
+    text-align:left;
+    font-size:18px;
+
+}
+#user_infor{
+    visibility:hidden;
+}
+.pointer{
+    cursor:pointer;
+    color:blue;
+    font-weight:600;
+}

@@ -1,0 +1,56 @@
+﻿body {
+}
+#frame{
+    margin:50px auto;
+    padding:0 0 50px 0;
+    width:500px;
+    min-height:500px;
+    /*position:initial;*/
+    background:#b4eeb4;
+    float:inherit;
+}
+#title{
+    padding-top:20px;
+    text-align:center;
+    margin-bottom:50px
+}
+.title_score{
+    font-size:45px;
+    color:blue;
+    font-family:'Times New Roman';
+}
+.name{
+    font-size:28px;
+    color:blue;
+    font-family:'Times New Roman';
+}
+#content{
+    font-size:20px;
+    text-align:center;
+    margin-left:40px;
+}
+#table_score{
+    /*position:absolute;*/
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.catalog{
+    width:320px;
+    text-align:left;
+    color:purple;
+    padding-left:5px;
+    font-family:'Times New Roman';
+    font-weight:500;
+}
+.score{
+    width:80px;
+    text-align:center;
+    color:purple;
+    font-family:'Times New Roman';
+    font-weight:400;
+}
+#code{
+    visibility:hidden;
+}

@@ -1,0 +1,104 @@
+﻿body{
+    background-color:#F9F9F9;
+}
+#title{
+    margin: 20px 0 40px 0;
+    font-family:'Times New Roman';
+    color:purple;
+    font-size:40px;
+    text-align:center;
+}
+#content_frame{
+    background-color:#FEEBD0;
+    width:75%;
+    min-height:250px;
+    margin:auto;
+    border:solid thin;
+    border-color:orange;	
+    border-radius:5px;
+}
+#result_frame{
+    background-color:white;
+    width:85%;
+    margin:auto;
+}
+#content{
+    margin-top:20px;
+    min-height:140px;
+}
+#content_left{
+    float:left;
+    width:28%;
+}
+#content_mid{
+    float:left;
+    width:33%;
+}
+#content_right{
+    float:right;
+    width:33%;
+}
+#select_model{
+    margin-left:12px;
+    height:25px;
+    width:80px;
+    color:blue;
+}
+#select_unit{
+    margin-left:27px;
+    height:25px;
+    width:80px;
+    color:blue;
+}
+#tx_date_from{
+    margin-left:26px;
+    height:20px;
+    width:150px;
+    color:blue;
+}
+#tx_date_to{
+    margin-left:45px;
+    height:20px;
+    width:150px;
+    color:blue;
+}
+#select_cavity{
+    margin-left:48px;
+    height:25px;
+    width:80px;
+    color:blue;
+}
+#tx_ip_address{
+    margin-left:20px;
+    height:20px;
+    width:150px;
+    color:blue;
+}
+.comment{
+    color:red;
+    font-size:20px;
+}
+.label{
+    font-size:18px;
+    margin-left:30px;
+}
+#button{
+    text-align:center;
+}
+.bt_search{
+    height:40px;
+    width:160px;
+    background-color:pink;
+    color:blue;
+    font-size:20px;
+    font-family:'Times New Roman';
+}
+#graph_frame{
+    background-color:#cae5e8;
+    width:75%;
+    min-height:480px;
+    margin: 10px auto;
+    border:solid thin;
+    border-color:orange;	
+    border-radius:5px;
+}

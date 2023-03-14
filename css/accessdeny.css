@@ -1,0 +1,13 @@
+﻿body {
+}
+#frame{
+    height:100px;
+    width:98%;
+    text-align:center;
+    margin:15px auto;
+    border:solid thin;
+    border-color:black;
+    padding-top:30px;
+    font-size:45px;
+    font-family:'Times New Roman';
+}
